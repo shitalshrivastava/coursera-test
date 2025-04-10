@@ -1,0 +1,412 @@
+* {
+  box-sizing: border-box;
+  float: left;
+  margin: 0px;
+}
+
+/* ****** Large device ********/
+@media (min-width: 992px) {
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-3,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12 {
+    float: left;
+    border: solid red 2px;
+    background-color: yellow;
+  }
+  .outer-container {
+    position: absolute;
+    background-color: yellow;
+    width: 100%;
+  }
+  .inner-container {
+    margin-left: 15%;
+  }
+  .heading {
+    position: relative;
+    margin-left: 45%;
+    font-size: larger;
+    color: brown;
+    text-align: center;
+    clear: both;
+    text-decoration: underline;
+  }
+  .box-1 {
+    position: relative;
+    width: 25%;
+    height: 150px;
+    border: 5px solid red;
+    margin: 20px;
+    background-color: rgb(118, 118, 170);
+  }
+  .box-1-heading {
+    position: relative;
+    width: 35%;
+    height: 30px;
+    margin-left: 65%;
+    border: 1px solid blue;
+    background-color: coral;
+    text-align: center;
+  }
+  .box-2 {
+    position: relative;
+    width: 25%;
+    height: 150px;
+    border: 5px solid red;
+    margin: 20px;
+    background-color: rgb(189, 146, 192);
+  }
+  .box-2-heading {
+    width: 35%;
+    height: 30px;
+    margin-left: 65%;
+    position: relative;
+    text-align: center;
+    border: 1px solid blue;
+    background-color: coral;
+  }
+  .box-3 {
+    position: relative;
+    margin-left: 20%;
+    width: 25%;
+    height: 150px;
+    border: 5px solid red;
+    margin: 20px;
+    background-color: blue;
+  }
+  .box-3-heading {
+    position: relative;
+    width: 35%;
+    height: 30px;
+    text-align: center;
+    margin-left: 65%;
+    border: 1px solid rgb(112, 186, 153);
+    background-color: coral;
+  }
+  .para {
+    margin: 5px;
+    color: white;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: medium;
+  }
+  .heading-tag {
+    background-color: brown;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********************* Medium Device ****************************/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-3,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
+    float: left;
+    border: solid red 5px;
+    background-color: rgb(18, 21, 170);
+  }
+  .outer-container {
+    position: absolute;
+    background-color: rgb(18, 21, 170);
+    width: 100%;
+  }
+  .inner-container {
+    margin-left: 15%;
+  }
+  .heading {
+    position: relative;
+    margin-left: 45%;
+    font-size: larger;
+    color: brown;
+    text-align: center;
+    clear: both;
+    text-decoration: underline;
+  }
+  .box-1 {
+    position: relative;
+    width: 35%;
+    height: 150px;
+    border: 5px solid red;
+    margin: 20px;
+    background-color: rgb(118, 118, 170);
+  }
+  .box-1-heading {
+    position: relative;
+    width: 35%;
+    height: 30px;
+    margin-left: 65%;
+    border: 1px solid blue;
+    background-color: coral;
+    text-align: center;
+  }
+  .box-2 {
+    position: relative;
+    width: 35%;
+    height: 150px;
+    border: 5px solid red;
+    margin: 20px;
+    background-color: rgb(189, 146, 192);
+  }
+  .box-2-heading {
+    width: 35%;
+    height: 30px;
+    margin-left: 65%;
+    position: relative;
+    text-align: center;
+    border: 1px solid blue;
+    background-color: coral;
+  }
+
+  .box-3 {
+    position: relative;
+    margin-left: 20%;
+    width: 75%;
+    height: 150px;
+    border: 5px solid red;
+    margin: 20px;
+    background-color: blue;
+  }
+  .box-3-heading {
+    position: relative;
+    width: 35%;
+    height: 30px;
+    text-align: center;
+    margin-left: 65%;
+    border: 1px solid rgb(112, 186, 153);
+    background-color: coral;
+  }
+  .para {
+    margin: 5px;
+    color: white;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: medium;
+  }
+  .heading-tag {
+    background-color: brown;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/*************Small device ***************/
+@media (max-width: 767px) {
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-3,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12 {
+    float: left;
+    border: solid red 5px;
+    background-color: rgb(27, 158, 49);
+  }
+  .outer-container {
+    position: absolute;
+    background-color: rgb(27, 158, 49);
+    width: 100%;
+  }
+  .inner-container {
+    margin-left: 15%;
+  }
+  .heading {
+    position: relative;
+    margin-left: 45%;
+    font-size: larger;
+    color: rgb(184, 217, 38);
+    text-align: center;
+    clear: both;
+    text-decoration: underline;
+  }
+
+  .box-1 {
+    position: relative;
+    width: 75%;
+    height: 150px;
+    border: 5px solid red;
+    margin: 20px;
+    background-color: rgb(118, 118, 170);
+  }
+
+  .box-1-heading {
+    position: relative;
+    width: 35%;
+    height: 30px;
+    margin-left: 65%;
+    border: 1px solid blue;
+    background-color: coral;
+    text-align: center;
+  }
+  .box-2 {
+    position: relative;
+    width: 75%;
+    height: 150px;
+    border: 5px solid red;
+    margin: 20px;
+    background-color: rgb(189, 146, 192);
+  }
+  .box-2-heading {
+    width: 35%;
+    height: 30px;
+    margin-left: 65%;
+    position: relative;
+    text-align: center;
+    border: 1px solid blue;
+    background-color: coral;
+  }
+
+  .box-3 {
+    position: relative;
+    margin-left: 20%;
+    width: 75%;
+    height: 150px;
+    border: 5px solid red;
+    margin: 20px;
+    background-color: blue;
+  }
+  .box-3-heading {
+    position: relative;
+    width: 35%;
+    height: 30px;
+    text-align: center;
+    margin-left: 65%;
+    border: 1px solid rgb(112, 186, 153);
+    background-color: coral;
+  }
+  .para {
+    margin: 5px;
+    color: white;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: medium;
+  }
+  .heading-tag {
+    background-color: brown;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
