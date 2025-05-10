@@ -1,0 +1,79 @@
+
+.navbar-light .navbar-toggler {
+    border-color: #f8f9fa;
+}
+
+#fontsize{
+    font-size:5em;
+}
+
+
+.text-center {
+    font-size: 4em;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    font: bold;
+}
+
+
+
+
+
+#chickenmenu{
+    width: 1000px;
+    height: 1000px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin: auto;
+    background-color: rgb(87, 228, 241);
+    text-align: left;
+}
+#spancss{
+    text-align: center;
+    color:black;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+   font-variant: normal;
+ 
+
+}
+.container-fluid{
+    width:500px;
+    height: 700px;
+}
+
+
+/*****************Navigation Brand Custom *******************/
+.navbar-brand{
+    font-size: xx-large;
+}
+
+/*****************Navigation Bar Custom *******************/
+.navbar{
+    background-color: rgb(66, 58, 207);
+    font-weight: bold;
+    font-style: oblique;
+    border-style:groove;
+    border-color: black;
+    border-width: thick;
+    font-size: x-large;
+}
+/*****************Navigation Bar Item Custom *******************/
+.nav-item{
+text-align: center;
+border-style: groove;
+border-color: black;
+}
+
+.row{
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#menuitem{
+    background-color: rgb(87, 228, 241);
+    margin-top: 20px;
+}
